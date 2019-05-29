@@ -1,3 +1,9 @@
 sudo: required
 services:
   - docker
+
+script:
+  - echo "Hello Travis CI"
+
+after_success:
+  - echo "after_success Travis CI"
